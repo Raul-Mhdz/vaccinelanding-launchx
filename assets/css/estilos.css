@@ -1,0 +1,879 @@
+body{
+
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.menu{
+
+  width: 100%;
+}
+
+.menu ul li{
+
+  display: inline-block;
+  list-style-type: none;
+  text-align: left;
+}
+
+.izquierda{
+
+  float: left;
+  padding-left: 10px;
+  font-size: 25px;
+  color: blue;
+}
+
+.menu ul li a{
+
+  padding: 50px;
+  text-decoration: none;
+}
+
+.der{
+
+  padding-left: 390px;
+  font-size: 20px;
+}
+
+.menu ul .izquierda a:visited{
+
+  color: blue;
+}
+
+.menu ul li a:visited{
+
+  color: gray;
+}
+
+.menu ul li button{
+
+  background-color: blue;
+  color: #ffffff;
+  padding: 15px;
+  border: 0cm;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px -1px rgba(0,0,0,0.42);
+  cursor: pointer;
+}
+
+.info{
+
+  width: 50%;
+  height: 700px;
+  float: left;
+  background-color: #ffffff;
+}
+
+.info h1{
+
+  text-align: center;
+  padding-top: 80px;
+  font-size: 50px;
+  color: #383E53;
+}
+
+.info .no-top{
+
+  padding-top: 0px;
+  padding-left: 60px;
+}
+
+.info p{
+
+  color: gray;
+  text-align: center;
+  text-justify: inter-word;
+  font-size: 15px;
+}
+
+.info .p1{
+
+  padding-left: 20px;
+}
+
+.info .p2{
+
+  padding-left: 10px;
+}
+
+.info .p3{
+
+  text-align: left;
+  padding-left: 205px;
+}
+
+.info ul li{
+
+  display: inline-block;
+  list-style: none;
+  text-align: left;
+  padding-left: 100px;
+  font-size: 14px;
+  color: #383E53;
+}
+
+.info ul li i{
+
+  color: yellow;
+  padding-right: 10px;
+}
+
+.info ul li ion-icon{
+
+  color: yellow;
+  padding-right: 10px;
+}
+
+.info .reloj li{
+
+  margin-top: 50px;
+}
+
+.info .reloj li i{
+
+  color: blue;
+  padding-right: 10px;
+}
+
+.enfermera{
+
+  background-color: blue;
+  max-width: 50%;
+  float: right;
+  height: 700px;
+}
+
+.enfermera img{
+
+  width: 100%;
+  height: 100%;
+}
+
+.horario{
+
+  background-color: #ffffff;
+  opacity: 0.9;
+  width: 1000px;
+  height: 100px;
+  position: absolute;
+  top: 600px;
+  left: 120px;
+  box-shadow: 0px 5px 22px -4px rgba(0,0,0,1);;
+}
+
+.horario label{
+
+  position: absolute;
+  color: gray;
+  top: 20px;
+  font-size: 20px;
+}
+
+.horario .hizquierda{
+
+  padding-left: 40px;
+}
+
+.horario .hizquierda2{
+
+  padding-left: 110px;
+}
+
+.horario .hizquierda3{
+
+  padding-left: 180px;
+}
+
+.horario i{
+
+  color:blue;
+  padding-right: 10px;
+}
+
+.horario .location{
+
+  position: relative;
+  top: 50px;
+  left: 65px;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 22px -4px rgba(0,0,0,1);
+  border-radius: 10px;
+  height: 30px;
+  font-size: 15px;
+  border: 0cm;
+}
+
+.horario input{
+
+  position: relative;
+  top: 50px;
+  left: 135px;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 22px -4px rgba(0,0,0,1);
+  border-radius: 10px;
+  height: 30px;
+  font-size: 15px;
+  border: 0cm;
+}
+
+.horario .vaccine{
+
+  position: relative;
+  top: 50px;
+  left: 205px;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 22px -4px rgba(0,0,0,1);
+  border-radius: 10px;
+  height: 30px;
+  font-size: 15px;
+  border: 0cm;
+}
+
+.horario .vaccine-submit{
+
+  position: relative;
+  top: 30px;
+  left: 280px;
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  color: #ffffff;
+  padding: 15px;
+  border: 0cm;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px -1px rgba(0,0,0,0.42);
+  cursor: pointer;
+}
+
+.imagenes{
+
+  background-color: #ffffff;
+  padding-top: 800px;
+  height: 195px;
+}
+
+.imagenes img{
+
+  filter: grayscale(1);
+}
+
+.imagenes .astra{
+
+  position: relative;
+  left: 120px;
+  bottom: 50px;
+}
+
+.imagenes .sinovac{
+
+  position: relative;
+  left: 170px;
+  bottom: 50px;
+}
+
+.imagenes .pfizer{
+
+  position: relative;
+  left: 220px;
+  bottom: 50px;
+}
+
+.imagenes .moderna{
+
+  position: relative;
+  left: 270px;
+  bottom: 50px;
+}
+
+.why{
+
+  background-color: #ffffff;
+  height: 570px;
+  margin-top: -100px;
+}
+
+.why h2{
+
+  padding-top: 80px;
+  padding-left: 210px;
+  font-size: 30px;
+  color: #383E53;
+}
+
+.why p{
+
+  color: gray;
+  text-justify: inter-word;
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+.antibodies{
+
+  padding-top: 20px;
+}
+
+.why .why-p1{
+
+  padding-left: 215px;
+}
+
+.why .why-p2{
+
+  padding-left: 215px;
+}
+
+.why .why-p3{
+
+  padding-left: 215px;
+}
+
+.why .card1{
+
+  background-color: #ffffff;
+  width: 225px;
+  height: 250px;
+  position: relative;
+  top: 30px;
+  left: 100px;
+  border-radius: 10px;
+  border: 2px ridge #dedede;
+}
+
+.why .card2{
+
+  background-color: #ffffff;
+  width: 225px;
+  height: 250px;
+  position: relative;
+  top: -220px;
+  left: 400px;
+  border-radius: 10px;
+  border: 2px ridge #dedede;
+}
+
+.why .card3{
+
+  background-color: #ffffff;
+  width: 225px;
+  height: 250px;
+  position: relative;
+  top: -470px;
+  left: 700px;
+  border-radius: 10px;
+  border: 2px ridge #dedede;
+}
+
+.why .card4{
+
+  background-color: #ffffff;
+  width: 225px;
+  height: 250px;
+  position: relative;
+  top: -720px;
+  left: 1000px;
+  border-radius: 10px;
+  border: 2px ridge #dedede;
+}
+
+.why ion-icon{
+
+  font-size: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: blue;
+  background-color: rgba(143, 166, 243, 0.2);
+  border-radius: 10px;
+}
+
+.why i{
+
+  font-size: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: blue;
+  background-color: rgba(143, 166, 243, 0.2);
+  border-radius: 10px;
+}
+
+.why h3{
+
+  font-size: 20px;
+  padding-left: 15px;
+  color: #383E53;
+}
+
+.half{
+
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(23,137,235,1) 50%);
+  max-width: 50%;
+  height: 500px;
+  float: left;
+}
+
+.womenmask{
+
+  width: 100%;
+  height: 100%;
+}
+
+.preparation{
+
+  background-color: #ffffff;
+  max-width: 50%;
+  float: right;
+  height: 500px;
+}
+
+.preparation h2{
+
+  padding-top: 20px;
+  padding-left: 25px;
+  font-size: 30px;
+  color: #383E53;
+}
+
+.preparation p{
+
+  color: gray;
+  text-justify: inter-word;
+  font-size: 15px;
+  padding-left: 25px;  
+}
+
+.hcard1{
+
+  background-color: #ffffff;
+  width: 500px;
+  height: 50px;
+  position: relative;
+  left: 25px;
+  top: 20px;
+  border-radius: 5px;
+  border: 2px ridge #dedede;
+}
+
+.hcard2{
+
+  background-color: #ffffff;
+  width: 500px;
+  height: 50px;
+  position: relative;
+  left: 25px;
+  top: 30px;
+  border-radius: 5px;
+  border: 2px ridge #dedede;
+}
+
+.hcard3{
+
+  background-color: #ffffff;
+  width: 500px;
+  height: 50px;
+  position: relative;
+  left: 25px;
+  top: 40px;
+  border-radius: 5px;
+  border: 2px ridge #dedede;
+}
+
+.hcard4{
+
+  background-color: #ffffff;
+  width: 500px;
+  height: 50px;
+  position: relative;
+  left: 25px;
+  top: 50px;
+  border-radius: 5px;
+  border: 2px ridge #dedede;
+}
+
+.hcard5{
+
+  background-color: #ffffff;
+  width: 500px;
+  height: 50px;
+  position: relative;
+  left: 25px;
+  top: 60px;
+  border-radius: 5px;
+  border: 2px ridge #dedede;
+}
+
+.preparation .derecha{
+
+  color: blue;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.preparation h4{
+
+  color: #383E53;
+  font-size: 18px;
+}
+
+.preparation .iz1{
+
+  color: blue;
+  font-size: 20px;
+  padding-left: 180px;
+}
+
+.preparation .iz2{
+
+  color: blue;
+  font-size: 20px;
+  padding-left: 300px;
+}
+
+.preparation .iz3{
+
+  color: blue;
+  font-size: 20px;
+  padding-left: 265px;
+}
+
+.preparation .iz4{
+
+  color: blue;
+  font-size: 20px;
+  padding-left: 255px;
+}
+
+.preparation .iz5{
+
+  color: blue;
+  font-size: 20px;
+  padding-left: 160px;
+}
+
+.emergency{
+
+  background-color: #ffffff;
+  width: 50%;
+  height: 700px;
+  float: left;
+}
+
+.emergency h2{
+
+  padding-top: 80px;
+  padding-left: 210px;
+  font-size: 30px;
+  color: #383E53;
+}
+
+.emergency p{
+
+  color: gray;
+  text-justify: inter-word;
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+.emergency .p-1{
+
+  padding-left: 215px;
+}
+
+.emergency .p-2{
+
+  padding-left: 215px;
+}
+
+.emergency .p-3{
+
+  padding-left: 215px;
+}
+
+.emergency .p-4{
+
+  padding-left: 215px;
+}
+
+.emergency .cardemergency1{
+
+  background-color: #ffffff;
+  width: 225px;
+  height: 155px;
+  position: relative;
+  top: 40px;
+  left: 120px;
+  border-radius: 10px;
+  border: 2px ridge #dedede;
+}
+
+.emergency .cardemergency2{
+
+  background-color: #ffffff;
+  width: 225px;
+  height: 155px;
+  position: relative;
+  top: -120px;
+  left: 380px;
+  border-radius: 10px;
+  border: 2px ridge #dedede;
+}
+
+.emergency .cardemergency3{
+
+  background-color: #ffffff;
+  width: 225px;
+  height: 155px;
+  position: relative;
+  top: -100px;
+  left: 120px;
+  border-radius: 10px;
+  border: 2px ridge #dedede;
+}
+
+.emergency .cardemergency4{
+
+  background-color: #ffffff;
+  width: 225px;
+  height: 155px;
+  position: relative;
+  top: -260px;
+  left: 380px;
+  border-radius: 10px;
+  border: 2px ridge #dedede;
+}
+
+.emergency ion-icon{
+  
+  font-size: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: blue;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: rgba(143, 166, 243, 0.2);
+  border-radius: 10px;
+}
+
+.emergency i{
+
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: blue;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: rgba(143, 166, 243, 0.2);
+  border-radius: 10px;
+}
+
+.emergency h5{
+
+  font-size: 20px;
+  position: relative;
+  top: -80px;
+  left: 80px;
+  color: #383E53;
+}
+
+.emergency .contactp{
+  
+  font-size: 13px;
+  position: relative;
+  top: -105px;
+  left: 65px;
+}
+
+.emergency button{
+
+  background-color: rgba(143, 166, 243, 0.2);
+  color: blue;
+  padding: 15px;
+  border: 0cm;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px -1px rgba(0,0,0,0.42);
+  cursor: pointer;
+  position: relative;
+  top: -100px;
+  left: 40px;
+  width: 150px;
+}
+
+.emergency button:hover{
+
+  color: #ffffff;
+  background-color: blue;
+}
+
+.half2{
+
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(23,137,235,1) 50%);
+  max-width: 50%;
+  height: 700px;
+  float: left;
+}
+
+.nursephone{
+
+  width: 100%;
+  height: 100%;
+}
+
+.footer{
+
+  background-color: rgba(143, 166, 243, 0.2);
+  width: 100%;
+  height: 1500px;
+}
+
+.footer h4{
+
+  font-size: 25px;
+  color: blue;
+  padding-left: 100px;
+  padding-top: 1230px;
+}
+
+.footer p{
+
+  font-size: 15px;
+  padding-left: 100px;
+  width: 180px;
+  color: gray;
+}
+
+.footer .about{
+
+  position: relative;
+  left: 600px;
+  top: -128px;
+  list-style: none;
+  max-width: 40%;
+}
+
+.footer .titulo{
+
+  font-size: 25px;
+}
+
+.footer .title:visited{
+
+  color: blue;
+}
+
+.footer .subtitulo{
+
+  padding-top: 5px;
+}
+
+.footer .about .margen{
+
+  margin-top: 20px;
+}
+
+.footer a{
+
+  text-decoration: none;
+}
+
+.footer a:visited{
+
+  color: gray;
+}
+
+.footer .company{
+
+  position: relative;
+  left: 780px;
+  top: -291px;
+  list-style: none;
+  max-width: 10%;
+}
+
+.footer .titulo2{
+
+  font-size: 25px;
+}
+
+.footer .title2:visited{
+
+  color: blue;
+}
+
+.footer .subtitulo2{
+
+  padding-top: 5px;
+}
+
+.footer .company .margen2{
+
+  margin-top: 20px;
+}
+
+.footer .support{
+
+  position: relative;
+  left: 980px;
+  top: -455px;
+  list-style: none;
+  max-width: 10%;
+}
+
+.footer .titulo3{
+
+  font-size: 25px;
+}
+
+.footer .title3:visited{
+
+  color: blue;
+}
+
+.footer .subtitulo3{
+
+  padding-top: 5px;
+}
+
+.footer .support .margen3{
+
+  margin-top: 20px;
+}
+
+.footer .copy{
+
+  width: 260px;
+  font-size: 15px;
+  position: relative;
+  top: -400px;
+}
+
+.footer .terms{
+
+  font-size: 15px;
+  position: relative;
+  top: -433px;
+  left: 535px;
+}
+
+.footer .privacy{
+
+  font-size: 15px;
+  position: relative;
+  top: -465px;
+  left: 800px;
+}
